@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "UwUfier",
+    "version": "1.0",
+    "description": "Turns all websites into their uwufied version",
+    "web_accessible_resources": [
+        "add.wasm"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "index.js"
+            ]
+        }
+    ]
+}
